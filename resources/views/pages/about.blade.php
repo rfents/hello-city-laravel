@@ -1,5 +1,8 @@
 @extends('app')
 
+@section('title', 'Hello City | About us')
+
+
 @section('content')
 
         <p>Exercices de test &hearts;</p>
