@@ -3,7 +3,7 @@
 
 
 @section('content')
-        <h1>Hello from Madagascar!</h1>
+        <h3>Hello from Madagascar!</h3>
 
         <p>It's actually {{ date('h:i A') }}.</p>
 @endsection
