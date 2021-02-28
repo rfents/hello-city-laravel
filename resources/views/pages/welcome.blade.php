@@ -4,7 +4,7 @@
 
 @section('content')
         
-        <img src="images/saina.jpg" alt="Drapeau MDG">
+        <img src="{{ asset('images/saina.jpg') }}" alt="Drapeau MDG">
         <h3>Hello from Madagascar!</h3>
 
         <p>It's actually {{ date('h:i A') }}.</p>
