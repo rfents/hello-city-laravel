@@ -17,9 +17,21 @@ Route::name('home')->get('/', function () {
     return view('pages/welcome');
 });
 
+
+/*
 Route::get('/about-us', function() {
     return view('pages.about');
 }) -> name('about');
+*/
+
+/*EQUIVALENT en php sous la fonction fn()*/
+/*
+Route::get('/about-us', fn() => view('pages.about'))->name('about');
+*/
+
+/*EQUIVALENT EN LARAVEL*/
+Route::view('/about-us','pages/about')->name('about');
+
 
 Route::get('/help', function() {
 
