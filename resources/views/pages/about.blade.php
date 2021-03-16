@@ -1,11 +1,7 @@
-@extends('app')
-
-@section('title', config('app.name') . ' | About us')
-    
+@extends('layouts.app', ['title' => 'About us'])
 
 
-
-@section('content')
+ @section('content')
         <img src="{{ asset('images/seaux.png') }}" alt="Sceau" class="my-12 rounded shadow-md">
         <h2 class="mb-5 text-gray-700">
                 Exercices de test <span class="text-pink-500">&hearts;</span>
